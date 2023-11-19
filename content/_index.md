@@ -109,14 +109,14 @@ sections:
     design:
       columns: '2'
 
-- block: skills
-  content:
-    title: Skills
-    text: ''
-    # Choose a user to display skills from (a folder name within `content/authors/`)
-    username: admin
-  design:
-    columns: '1'
+  - block: skills
+    content:
+      title: Skills
+      text: ''
+      # Choose a user to display skills from (a folder name within `content/authors/`)
+      username: admin
+    design:
+      columns: '1'
   - block: markdown
     content:
       title: Gallery
