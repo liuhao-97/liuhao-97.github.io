@@ -26,7 +26,6 @@ organizations:
 
 # Short bio (displayed in user profile at end of posts)
 bio: I am a second year PhD student in the Accelerated Connected Computing Lab (ACCL) at KAUST. I mainly work on the Neural Network inference across edge, cloudlet to cloud. I also work in split computing, reconfigurable computing systems, and have explored machine learning model compression and physically unclonable functions.
-
 I received my Bachelor's degree in Electronic and Information Engineering and his Master's degree in Cybersecurity and Technology from Beihang University, Beijing, China in 2019 and 2021, respectively.
 
 # Interests to show in About widget
@@ -105,8 +104,8 @@ social:
   #   link: uploads/resume.pdf
 
 # # Highlight the author in author lists? (true/false)
-# highlight_name: true
+highlight_name: true
 ---
 
-# <!-- Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-<!-- # {style="text-align: justify;"} --> -->
+# I am a second year PhD student in the Accelerated Connected Computing Lab (ACCL) at KAUST. I mainly work on the Neural Network inference across edge, cloudlet to cloud. I also work in split computing, reconfigurable computing systems, and have explored machine learning model compression and physically unclonable functions. I received my Bachelor's degree in Electronic and Information Engineering and his Master's degree in Cybersecurity and Technology from Beihang University, Beijing, China in 2019 and 2021, respectively.
+# {style="text-align: justify;"}
