@@ -85,7 +85,7 @@ sections:
         - title: PhD student of Computer Science
           company: KAUST
           company_url: ''
-          company_logo: kaust.png
+          # company_logo: kaust.png
           location: Thuwal, Saudi Arabic
           date_start: '2021-01-01'
           date_end: ''
