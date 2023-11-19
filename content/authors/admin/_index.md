@@ -79,7 +79,7 @@ skills:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
+    link: 'hao.liu@kaust.edu.sa'
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/haoliu80335679
