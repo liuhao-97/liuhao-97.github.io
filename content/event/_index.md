@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Recent & Upcoming Talks
 cms_exclude: true
 
@@ -6,10 +6,10 @@ cms_exclude: true
 #   1 = List
 #   2 = Compact
 #   3 = Card
-view: 0
+view: 2
 
 # Optional header image (relative to `static/media/` folder).
 header:
   caption: ''
   image: ''
----
+--- -->
