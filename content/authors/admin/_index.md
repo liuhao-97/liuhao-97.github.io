@@ -25,8 +25,7 @@ organizations:
     url: https://www.kaust.edu.sa/en/
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am a second year PhD student in the Accelerated Connected Computing Lab (ACCL) at KAUST. I mainly work on the Neural Network inference across edge, cloudlet to cloud. I also work in split computing, reconfigurable computing systems, and have explored machine learning model compression and physically unclonable functions.
-I received my Bachelor's degree in Electronic and Information Engineering and his Master's degree in Cybersecurity and Technology from Beihang University, Beijing, China in 2019 and 2021, respectively.
+bio: I am a second year PhD student in the Accelerated Connected Computing Lab at KAUST.
 
 # Interests to show in About widget
 interests:
