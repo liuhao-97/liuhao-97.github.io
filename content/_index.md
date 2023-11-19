@@ -89,6 +89,7 @@ sections:
           location: Thuwal, Saudi Arabic
           date_start: '2021-01'
           date_end: 'Now'
+          description: Taught electronic engineering and researched semiconductor physics.
         - title: Master of Cyber Science and Technology
           company: Beihang University 
           company_url: ''
@@ -96,7 +97,7 @@ sections:
           location: Beijing, China
           date_start: '2019-09'
           date_end: '2021-01'
-          # description: Taught electronic engineering and researched semiconductor physics.
+          description: Taught electronic engineering and researched semiconductor physics.
         - title: Bachelor of Electronic and Information Engineering
           company: Beihang University 
           company_url: ''
@@ -104,7 +105,7 @@ sections:
           location: Beijing, China
           date_start: '2015-09'
           date_end: '2019-09'
-          # description: Taught electronic engineering and researched semiconductor physics.
+          description: Taught electronic engineering and researched semiconductor physics.
     design:
       columns: '2'
 
