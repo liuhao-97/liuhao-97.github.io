@@ -30,7 +30,7 @@ bio: I am a second year PhD student in the Accelerated Connected Computing Lab a
 # Interests to show in About widget
 interests:
   - Split Computing
-  - Resource Alloction and Task Offloading
+  - Edge-Cloudlet-Cloud NN co-inference
   - FPGA
 
 # Education to show in About widget
@@ -42,7 +42,7 @@ education:
     - course: Master in Cyber Science and Technology
       institution: Beihang University
       year: 2019
-    - course: bachelor in Electronic Information Engineering
+    - course: Bachelor in Electronic Information Engineering
       institution: Beihang University
       year: 2015
 
@@ -98,9 +98,9 @@ social:
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
-  # - icon: cv
-  #   icon_pack: ai
-  #   link: uploads/resume.pdf
+  - icon: cv
+    icon_pack: ai
+    link: uploads/resume.pdf
 
 # # Highlight the author in author lists? (true/false)
 highlight_name: true
