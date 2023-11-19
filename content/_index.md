@@ -85,14 +85,14 @@ sections:
         - title: PhD student of Computer Science
           company: KAUST
           company_url: ''
-          company_logo: kaust_logo
+          company_logo: kaust
           location: Thuwal, Saudi Arabic
           date_start: '2021-01'
           date_end: 'Now'
         - title: Master of Cyber Science and Technology
           company: Beihang University 
           company_url: ''
-          company_logo: Beihang_logo_2
+          company_logo: beihang
           location: Beijing, China
           date_start: '2019-09'
           date_end: '2021-01'
@@ -100,7 +100,7 @@ sections:
         - title: Bachelor of Electronic and Information Engineering
           company: Beihang University 
           company_url: ''
-          company_logo: Beihang_logo_2
+          company_logo: beihang
           location: Beijing, China
           date_start: '2015-09'
           date_end: '2019-09'
