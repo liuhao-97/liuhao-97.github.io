@@ -38,13 +38,13 @@ education:
   courses:
     - course: PhD student in Computer Science
       institution: KAUST
-      year: 2021.1-now
+      year: 2021
     - course: Master in Cyber Science and Technology
       institution: Beihang University
-      year: 2019.9-2021.1
+      year: 2019
     - course: bachelor in Electronic Information Engineering
       institution: Beihang University
-      year: 2015.9-2019.7
+      year: 2015
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -53,12 +53,12 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 80
+        # percent: 80
         icon: python
         icon_pack: fab
       - name: Verilog
         description: ''
-        percent: 100
+        # percent: 100
         icon: verilog
         icon_pack: fas
   - name: Hobbies
@@ -67,7 +67,7 @@ skills:
     items:
       - name: Cooking
         description: ''
-        percent: 60
+        # percent: 60
         icon: person-hiking
         icon_pack: fas
 
@@ -106,5 +106,5 @@ social:
 highlight_name: true
 ---
 
-# I am a second year PhD student in the Accelerated Connected Computing Lab (ACCL) at KAUST. I mainly work on the Neural Network inference across edge, cloudlet to cloud. I also work in split computing, reconfigurable computing systems, and have explored machine learning model compression and physically unclonable functions. I received my Bachelor's degree in Electronic and Information Engineering and his Master's degree in Cybersecurity and Technology from Beihang University, Beijing, China in 2019 and 2021, respectively.
+I am a second year PhD student in the Accelerated Connected Computing Lab (ACCL) at KAUST. I mainly work on the Neural Network inference across edge, cloudlet to cloud. I also work in split computing, reconfigurable computing systems, and have explored machine learning model compression and physically unclonable functions. I received my Bachelor's degree in Electronic and Information Engineering and his Master's degree in Cybersecurity and Technology from Beihang University, Beijing, China in 2019 and 2021, respectively.
 # {style="text-align: justify;"}
