@@ -9,13 +9,9 @@ summary: Attending FPGA'23 in Monterey, California!
 from IPython.core.display import Image
 Image('https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png')
 ``` -->
-```python
-from IPython.core.display import Image
-Image(1.jpg)
 
-```
 Enjoy my first visit to FPGA conference in Monterey, California! Monterey is such a lovely place!   
-![png](1.jpg)
+<!-- ![png](1.jpg) -->
 ![png](2.jpg)
 ![png](3.jpg)
 
