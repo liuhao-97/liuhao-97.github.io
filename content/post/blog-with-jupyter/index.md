@@ -1,7 +1,7 @@
 ---
 title: FPGA'23
 date: '2023-02-12'
-summary: Joining FPGA'23 in Monterey, California
+summary: Attending FPGA'23 in Monterey, California!
 ---
 
 
@@ -10,10 +10,17 @@ from IPython.core.display import Image
 Image('https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png')
 ``` -->
 
-    
-![png](output_1_0.png)
-    
+Enjoy my first visit to FPGA conference in Monterey, California! Monterey is such a lovely place!   
+![png](1.png)
+![png](2.png)
+![png](3.png)
 
+
+We also give a short visit to San Francisco!
+![png](4.png)
+![png](5.png)
+
+<!-- 
 ```python
 print("Welcome to Academic!")
 ```
@@ -31,4 +38,4 @@ pipx install academic
 academic import 'notebooks/**.ipynb' content/post/ --verbose
 ```
 
-The notebooks will be published to the folder you specify above. In this case, they will be published to your `content/post/` folder.
+The notebooks will be published to the folder you specify above. In this case, they will be published to your `content/post/` folder. -->
