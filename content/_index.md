@@ -89,7 +89,15 @@ sections:
           location: Thuwal, Saudi Arabic
           date_start: '2021-01-01'
           date_end: ''
-          # description: Taught electronic engineering and researched semiconductor physics.
+          description: Supervised by Prof. Suhaib Fahmy
+        - title: Visiting student of Electronic Engineering
+          company: Tsinghua University
+          company_url: ''
+          # company_logo: kaust.png
+          location: Beijing, China
+          date_start: '2023-06-01'
+          date_end: '2023-09-01'
+          description: Supervised by Prof. Yu Wang
         - title: Master of Cyber Science and Technology
           company: Beihang University 
           company_url: ''
@@ -97,15 +105,15 @@ sections:
           location: Beijing, China
           date_start: '2019-09-01'
           date_end: '2021-01-01'
-          # description: Taught electronic engineering and researched semiconductor physics.
+          description: Supervised by Prof. Zhenyu Guan
         - title: Bachelor of Electronic and Information Engineering
           company: Beihang University 
           company_url: ''
           # company_logo: beihang
           location: Beijing, China
-          date_start: '2015-09-01'
+          date_start: '2015-07-01'
           date_end: '2019-09-01'
-          # description: Taught electronic engineering and researched semiconductor physics.
+          description: Supervised by Prof. Zhenyu Guan
     design:
       columns: '2'
 

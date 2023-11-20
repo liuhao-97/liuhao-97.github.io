@@ -77,9 +77,9 @@ skills:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: 'hao.liu@kaust.edu.sa'
+  # - icon: envelope
+  #   icon_pack: fas
+  #   link: 'hao.liu@kaust.edu.sa'
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/haoliu80335679
@@ -106,6 +106,6 @@ social:
 highlight_name: true
 ---
 
-I am a second year PhD student in the Accelerated Connected Computing Lab (ACCL) at KAUST. I mainly work on the Neural Network inference across edge, cloudlet and cloud. I also work in split computing, reconfigurable computing systems, and have explored machine learning model compression and physically unclonable functions. 
+I am a second year PhD student in the Accelerated Connected Computing Lab (ACCL) at KAUST. I mainly work on the Neural Network inference across edge, cloudlet and cloud. I also work on split computing, reconfigurable computing systems, and have explored machine learning model compression and physically unclonable functions. 
 I received my Bachelor's degree in Electronic and Information Engineering and my Master's degree in Cyber Science and Technology from Beihang University, Beijing, China in 2019 and 2021, respectively.
 # {style="text-align: justify;"}
