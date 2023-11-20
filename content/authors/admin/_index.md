@@ -30,7 +30,7 @@ bio: I am a second year PhD student in the Accelerated Connected Computing Lab a
 # Interests to show in About widget
 interests:
   - Split Computing
-  - Edge-Cloudlet-Cloud NN co-inference
+  - Edge-Cloudlet-Cloud NN co-Inference
   - FPGA
 
 # Education to show in About widget

@@ -1,14 +1,14 @@
 ---
-title: Blog with Jupyter Notebooks!
-date: '2023-11-04'
-summary: Easily blog from Jupyter notebooks!
+title: FPGA'23
+date: '2023-02-12'
+summary: Joining FPGA'23 in Monterey, California
 ---
 
 
-```python
+<!-- ```python
 from IPython.core.display import Image
 Image('https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png')
-```
+``` -->
 
     
 ![png](output_1_0.png)
