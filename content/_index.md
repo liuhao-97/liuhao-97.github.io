@@ -57,9 +57,9 @@ sections:
       columns: '2'
       view: citation
 
-  - block: experience
+  - block: Education
     content:
-      title: Experience
+      title: Education
       # Date format for experience
       #   Refer to https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -90,14 +90,14 @@ sections:
           date_start: '2021-01-01'
           date_end: ''
           description: Supervised by Prof. Suhaib Fahmy
-        - title: Visiting student of Electronic Engineering
-          company: Tsinghua University
-          company_url: ''
-          # company_logo: kaust.png
-          location: Beijing, China
-          date_start: '2023-06-01'
-          date_end: '2023-09-01'
-          description: Supervised by Prof. Yu Wang
+        # - title: Visiting student of Electronic Engineering
+        #   company: Tsinghua University
+        #   company_url: ''
+        #   # company_logo: kaust.png
+        #   location: Beijing, China
+        #   date_start: '2023-06-01'
+        #   date_end: '2023-09-01'
+        #   description: Supervised by Prof. Yu Wang
         - title: Master of Cyber Science and Technology
           company: Beihang University 
           company_url: ''
@@ -114,6 +114,29 @@ sections:
           date_start: '2015-07-01'
           date_end: '2019-09-01'
           # description: Supervised by Prof. Zhenyu Guan
+    design:
+      columns: '2'
+  
+  - block: Intership
+    content:
+      title: Intership
+      # Date format for experience
+      #   Refer to https://docs.hugoblox.com/customization/#date-format
+      date_format: Jan 2006
+      # Experiences.
+      #   Add/remove as many `experience` items below as you like.
+      #   Required fields are `title`, `company`, and `date_start`.
+      #   Leave `date_end` empty if it's your current employer.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - title: Visiting student of Electronic Engineering
+          company: Tsinghua University
+          company_url: ''
+          # company_logo: kaust.png
+          location: Beijing, China
+          date_start: '2023-06-01'
+          date_end: '2023-09-01'
+          description: Supervised by Prof. Yu Wang
     design:
       columns: '2'
 
