@@ -113,7 +113,7 @@ sections:
           location: Beijing, China
           date_start: '2015-07-01'
           date_end: '2019-09-01'
-          description: Supervised by Prof. Zhenyu Guan
+          # description: Supervised by Prof. Zhenyu Guan
     design:
       columns: '2'
 
