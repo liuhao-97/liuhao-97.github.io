@@ -34,17 +34,17 @@ interests:
   - FPGA
 
 # Education to show in About widget
-education:
-  courses:
-    - course: PhD student in Computer Science
-      institution: KAUST
-      year: 2021
-    - course: Master in Cyber Science and Technology
-      institution: Beihang University
-      year: 2019
-    - course: Bachelor in Electronic Information Engineering
-      institution: Beihang University
-      year: 2015
+# education:
+#   courses:
+#     - course: PhD student in Computer Science
+#       institution: KAUST
+#       year: 2021
+#     - course: Master in Cyber Science and Technology
+#       institution: Beihang University
+#       year: 2019
+#     - course: Bachelor in Electronic Information Engineering
+#       institution: Beihang University
+#       year: 2015
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
