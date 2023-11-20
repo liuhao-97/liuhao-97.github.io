@@ -82,7 +82,7 @@ sections:
         #       * Analysing
         #       * Modelling
         #       * Deploying
-        - title: PhD student of Computer Science
+        - title: Ph.D student in Computer Science
           company: KAUST
           company_url: ''
           # company_logo: kaust.png
@@ -98,7 +98,7 @@ sections:
         #   date_start: '2023-06-01'
         #   date_end: '2023-09-01'
         #   description: Supervised by Prof. Yu Wang
-        - title: Master of Cyber Science and Technology
+        - title: Master of Science in Cyber Science and Technology
           company: Beihang University 
           company_url: ''
           # company_logo: beihang
@@ -106,7 +106,7 @@ sections:
           date_start: '2019-09-01'
           date_end: '2021-01-01'
           description: Supervised by Prof. Zhenyu Guan
-        - title: Bachelor of Electronic and Information Engineering
+        - title: Bachelor of Engineering in Electronic and Information Engineering
           company: Beihang University 
           company_url: ''
           # company_logo: beihang
