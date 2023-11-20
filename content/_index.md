@@ -129,14 +129,14 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Visiting student of Electronic Engineering
+        - title: Research Intern  
           company: Tsinghua University
           company_url: ''
           # company_logo: kaust.png
           location: Beijing, China
           date_start: '2023-06-01'
           date_end: '2023-09-01'
-          description: Supervised by Prof. Yu Wang
+          description: Learn and extend an existing project of Network Architecture Search (NAS). Supervised by Prof. Yu Wang
     design:
       columns: '2'
 
