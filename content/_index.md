@@ -57,7 +57,7 @@ sections:
       columns: '2'
       view: citation
 
-  - block: Education
+  - block: experience
     content:
       title: Education
       # Date format for experience
