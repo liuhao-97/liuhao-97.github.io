@@ -161,7 +161,7 @@ sections:
           date_end: '2022-12-01'
           # description: 
     design:
-      columns: '2'
+      columns: '1'
 
   - block: skills
     content:
