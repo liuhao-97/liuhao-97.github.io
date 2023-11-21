@@ -25,7 +25,7 @@ organizations:
     url: https://www.kaust.edu.sa/en/
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am a second year PhD student in the Accelerated Connected Computing Lab at KAUST.
+bio: I am a Ph.D student working on edge-cloudlet-cloud NN co-inference.
 
 # Interests to show in About widget
 interests:
