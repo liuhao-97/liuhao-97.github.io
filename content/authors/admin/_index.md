@@ -106,6 +106,6 @@ social:
 highlight_name: true
 ---
 
-I am a second year PhD student in the Accelerated Connected Computing Lab (ACCL)[ACCL](https://accl.kaust.edu.sa/) at KAUST. I mainly work on the Neural Network inference across edge, cloudlet and cloud. I also work on split computing, reconfigurable computing systems, and have explored machine learning model compression and physically unclonable functions. 
+I am a second year PhD student in the Accelerated Connected Computing Lab [ACCL](https://accl.kaust.edu.sa/) at KAUST. I mainly work on the Neural Network inference across edge, cloudlet and cloud. I also work on split computing, reconfigurable computing systems, and have explored machine learning model compression and physically unclonable functions. 
 I received my Bachelor's degree in Electronic and Information Engineering and my Master's degree in Cyber Science and Technology from Beihang University, Beijing, China in 2019 and 2021, respectively.
 # {style="text-align: justify;"}
