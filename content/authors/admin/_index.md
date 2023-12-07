@@ -106,6 +106,6 @@ social:
 highlight_name: true
 ---
 
-Hao Liu is a second year Ph.D student in the Accelerated Connected Computing Lab [ACCL](https://accl.kaust.edu.sa/) at KAUST. He mainly works on hardware-software co-design, and Neural Network co-inference across multiple devices. He also works on split computing, reconfigurable computing systems, and has explored machine learning model compression and physically unclonable functions. 
+Hao Liu is a second year Ph.D student in the Accelerated Connected Computing Lab [ACCL](https://accl.kaust.edu.sa/) at KAUST. He mainly works on hardware-software co-design, especially for Neural Network co-inference across multiple devices. He also works on split computing, reconfigurable computing systems, and has explored machine learning model compression and physically unclonable functions. 
 He received his Bachelor's degree in Electronic and Information Engineering and Master's degree in Cyber Science and Technology from Beihang University, Beijing, China in 2019 and 2021, respectively.
 # {style="text-align: justify;"}
