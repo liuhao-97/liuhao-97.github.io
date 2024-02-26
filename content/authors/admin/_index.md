@@ -30,7 +30,7 @@ bio: I am a Ph.D student working on edge-cloudlet-cloud NN co-inference.
 # Interests to show in About widget
 interests:
   - Split Computing
-  - Edge-Cloudlet-Cloud NN co-Inference
+  - Edge-Cloud DNN co-Inference
   - FPGA
 
 # Education to show in About widget
