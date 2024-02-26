@@ -25,7 +25,7 @@ organizations:
     url: https://www.kaust.edu.sa/en/
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am a Ph.D student working on edge-cloudlet-cloud NN co-inference.
+bio: I am a Ph.D student working on accelerating edge-cloud DNN co-inference.
 
 # Interests to show in About widget
 interests:
