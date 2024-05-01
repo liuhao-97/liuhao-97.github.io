@@ -96,7 +96,7 @@ sections:
           # company_logo: kaust.png
           location: Thuwal, Saudi Arabia
           date_start: '2022-01-01'
-          date_end: ''
+          date_end: '2024-05-01'
           description: Supervised by Prof. Suhaib Fahmy
         # - title: Visiting student of Electronic Engineering
         #   company: Tsinghua University
