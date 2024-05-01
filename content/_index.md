@@ -82,12 +82,20 @@ sections:
         #       * Analysing
         #       * Modelling
         #       * Deploying
+        - title: Ph.D candidate in Computer Science
+          company: KAUST
+          company_url: ''
+          # company_logo: kaust.png
+          location: Thuwal, Saudi Arabia
+          date_start: '2024-05-01'
+          date_end: ''
+          description: Supervised by Prof. Suhaib Fahmy
         - title: Ph.D student in Computer Science
           company: KAUST
           company_url: ''
           # company_logo: kaust.png
           location: Thuwal, Saudi Arabia
-          date_start: '2021-01-01'
+          date_start: '2022-01-01'
           date_end: ''
           description: Supervised by Prof. Suhaib Fahmy
         # - title: Visiting student of Electronic Engineering
