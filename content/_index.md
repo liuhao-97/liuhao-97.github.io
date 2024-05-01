@@ -127,7 +127,7 @@ sections:
   
   - block: experience
     content:
-      title: Intership
+      title: Internship
       # Date format for experience
       #   Refer to https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
