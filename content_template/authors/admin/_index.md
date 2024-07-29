@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Ph.D candiate
+role: PhD student
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -25,26 +25,26 @@ organizations:
     url: https://www.kaust.edu.sa/en/
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am a Ph.D candidate working on Near-Edge Assisted DNN Inference.
+bio: I am a second year PhD student in the Accelerated Connected Computing Lab at KAUST.
 
 # Interests to show in About widget
 interests:
   - Split Computing
-  - Near-Edge Assisted DNN Inference
+  - Resource Alloction and Task Offloading
   - FPGA
 
 # Education to show in About widget
-# education:
-#   courses:
-#     - course: PhD student in Computer Science
-#       institution: KAUST
-#       year: 2021
-#     - course: Master in Cyber Science and Technology
-#       institution: Beihang University
-#       year: 2019
-#     - course: Bachelor in Electronic Information Engineering
-#       institution: Beihang University
-#       year: 2015
+education:
+  courses:
+    - course: PhD student in Computer Science
+      institution: KAUST
+      year: 2021
+    - course: Master in Cyber Science and Technology
+      institution: Beihang University
+      year: 2019
+    - course: bachelor in Electronic Information Engineering
+      institution: Beihang University
+      year: 2015
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -77,9 +77,9 @@ skills:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
-  # - icon: envelope
-  #   icon_pack: fas
-  #   link: 'hao.liu@kaust.edu.sa'
+  - icon: envelope
+    icon_pack: fas
+    link: '/#contact'
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/haoliu80335679
@@ -98,14 +98,14 @@ social:
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/resume.pdf
+  # - icon: cv
+  #   icon_pack: ai
+  #   link: uploads/resume.pdf
 
 # # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-Hao Liu is a third year Ph.D candidate in the Accelerated Connected Computing Lab [ACCL](https://accl.kaust.edu.sa/) at KAUST. He mainly works on Near-Edge Assisted DNN Inference, which is to optimize DNN inference by offloading computation from edge to near-edge accelerators. He also works on split computing, reconfigurable computing systems, and has explored machine learning model compression and physically unclonable functions. 
-He received his Bachelor's degree in Electronic and Information Engineering and Master's degree in Cyber Science and Technology from Beihang University, Beijing, China in 2019 and 2021, respectively.
+I am a second year PhD student in the Accelerated Connected Computing Lab (ACCL) at KAUST. I mainly work on the Neural Network inference across edge, cloudlet and cloud. I also work in split computing, reconfigurable computing systems, and have explored machine learning model compression and physically unclonable functions. 
+I received my Bachelor's degree in Electronic and Information Engineering and my Master's degree in Cyber Science and Technology from Beihang University, Beijing, China in 2019 and 2021, respectively.
 # {style="text-align: justify;"}
