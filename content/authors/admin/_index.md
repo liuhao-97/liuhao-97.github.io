@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Ph.D student
+role: Ph.D candiate
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -25,12 +25,12 @@ organizations:
     url: https://www.kaust.edu.sa/en/
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am a Ph.D student working on accelerating edge-cloud DNN co-inference.
+bio: I am a Ph.D candidate working on Near-Edge Assisted DNN Inference.
 
 # Interests to show in About widget
 interests:
   - Split Computing
-  - Edge-Cloud DNN co-Inference
+  - Near-Edge Assisted DNN Inference
   - FPGA
 
 # Education to show in About widget
@@ -106,6 +106,6 @@ social:
 highlight_name: true
 ---
 
-Hao Liu is a third year Ph.D student in the [Accelerated Connected Computing Lab](https://accl.kaust.edu.sa/) (ACCL) at KAUST. He mainly works on accelerating DNN co-inference across multiple devices from edge to cloud. He also works on split computing, reconfigurable computing systems, and has explored machine learning model compression and physically unclonable functions. 
+Hao Liu is a third year Ph.D candidate in the Accelerated Connected Computing Lab [ACCL](https://accl.kaust.edu.sa/) at KAUST. He mainly works on Near-Edge Assisted DNN Inference, which is to optimize DNN inference by offloading computation from edge to near-edge accelerators. He also works on split computing, reconfigurable computing systems, and has explored machine learning model compression and physically unclonable functions. 
 He received his Bachelor's degree in Electronic and Information Engineering and Master's degree in Cyber Science and Technology from Beihang University, Beijing, China in 2019 and 2021, respectively.
 # {style="text-align: justify;"}
