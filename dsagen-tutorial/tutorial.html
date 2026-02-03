@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>DSAGEN: Democratizing Spatial Accelerator Research</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="col-md-12 text-center entry-title">
+        <h2>DSAGEN: Democratizing Spatial Accelerator Research</h2>
+      </div>
+
+      <div class="col-md-12">
+        <h3> Organizers </h3>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <div style="font-size:20px">
+              <a href="http://were.github.io/">Jian Weng</a>,
+              <a href="http://web.cs.ucla.edu/~sihao/">Sihao Liu</a>,
+              <a href="https://www.linkedin.com/in/vidushi-dadu-b8507b9b/">Vidushi Dadu</a>,
+              <a href="http://web.cs.ucla.edu/~tjn/">Tony Nowatzki</a>
+              <br>
+              <a href="http://web.cs.ucla.edu/~tjn//01-research/">PolyArch Research Group</a> <br>
+              University of California, Los Angeles <br>
+              Date/Time: Saturday. Oct. 17th. 4PM - 7PM PST <br>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="col-md-12">
+        <h3> Resources </h3>
+        <div style="font-size:18px;text-indent:2.0em" class="text-justify">
+          Please download and build the
+          <a href="https://personalmicrosoftsoftware0-my.sharepoint.com/:u:/g/personal/werefluke_personalmicrosoftsoftware_ucla_edu/EVlVSxYNSGdGub7za6HWADUBrBy08BbyVXVh3Gu1ZYXcrw?e=pZA0Md&download=1">binary release</a>
+          of our infrastructure
+          or build it from  the <a href="https://github.com/PolyArch/dsa-framework">source</a>.
+          These include a full-stack implementation, including the extended ISA, binary linker,
+          compiler, hardware simulator, RTL generator, Chipyard integration, and benchmarks.
+          Please do get the infrastructure executable before the tutorial.
+        </div>
+        <div style="font-size:18px;text-indent:2.0em" class="text-justify">
+          To set up the environment, you need to:
+          <ul>
+            <li>Use this <a href="./Dockerfile">Dockerfile</a> to instantiate a container that has all the dependent packages installed.
+            If you are not familiar with the usage of Docker please refer <a href="#docker-usage">the quick tour below.</a></li> 
+            <li>The commands below are for the purpose of tutorial. If you want to use our framework for your daily research, it is <b>highly recommended</b>
+              to follow the instructions on our project <a href="https://github.com/PolyArch/dsa-framework/wiki/Getting-Started">wiki</a>.
+            </li>
+            <li class="text-monospace">$ zsh # Please DO USE zsh or the behavior of source setup.sh may be undesirable</li>
+            <del>
+            <li class="text-monospace">$ cd ~</li>
+            <li class="text-monospace">$ wget "[the binary download link]" -O dsa-release.zip # note: DO NOT omit the quotes</li>
+            <li class="text-monospace">$ unzip dsa-release.zip</li>
+            <li class="text-monospace">$ source dsa-framework/setup.sh</li>
+            <li class="text-monospace">$ git clone https://github.com/polyarch/dsa-examples # Examples for programming</li>
+            <li class="text-monospace">$ git clone https://github.com/polyarch/dsa-cgra-gen # For hardware generation</li>
+            <li class="text-monospace">$ cd dsa-examples/manual/01_vector_add && ./run.sh answer.out # Verify your installation </li>
+            </del>
+          </ul>
+          <del>NOTE: If the link for binary release is too slow to download an alternative
+          <a href=https://ucla.box.com/shared/static/jueg4jom482r437xulrdzgyoqsrwuww8.zip">link</a> is here.</del><br>
+        </div>
+      </div>
+      <hr>
+      <div class="col-md-12">
+        <h3> Overview </h3>
+        <div align="center"> <img height="400px" src="tutorial.svg"> </div>
+        <div class="col-xs-12" align="center"> <p style="font-size:20px">Fig. 1: Synthesizing Programmable Accelerators</p> </div>
+        <div style="font-size:18px;text-indent:2em;" class="text-justify">
+          Because of the wanning benefit of transistor scaling,
+          significant research has emerge for specialized accelerators, becuase of their
+          promising performance and energy saving. While effective, the require intensive
+          engineering for the hardware and software, and this efforts will be repeated when the
+          underlying application domain shifts.
+        </div>
+        <div style="font-size:18px;text-indent:2em;" class="text-justify">
+          Ideally, one will be able to generate the accelerators based on the behaviors of the
+          applications, and where these applications can be specified in a set of stead and
+          user-friendly programming interfaces. In other words, we require a high-level
+          synthesis flow for programmable accelerators. Figure 1 shows the paradigm of
+          synthesizing programmable accelerators. In this tutorial, we will present
+          our approach for programmable accelerator along with a research framework: DSAGEN,
+          a full-stack infrastructure includes compilation, simulation, and RTL implementaion.
+        </div>
+        <div style="font-size:18px;text-indent:2em;" class="text-justify">
+          The first principle of our approach is to define a useful but restricted
+          design space. Specifically we use decoupled-spatial accelerators,
+          where memory accesses are decoupled from computation
+          pipelines, and the underlying hardware network/storage/timing
+          is exposed in the ISA.
+          The second principle is to enable a rich accelerator design
+          space by specifying architectures as a composition of simple
+          primitives, including memories, processing elements, and
+          network/synchronization components. An architecture instance
+          can be represented as graph – the architecture description
+          graph (ADG) – where each node is a hardware primitive. The
+          ADG is an abstraction for the compiler (it is used to derive
+          the ISA) as well as RTL generation.
+        </div>
+        <div style="font-size:18px;" class="text-justify">
+          <b>DSAGEN Framework:</b> This approach is embodied in our
+          framework, DSAGEN, which is overviewed in Figure 2.
+          DSAGEN targets C programs with custom, but application
+          neutral pragmas. The compiler infrastructure uses Clang and
+          LLVM as a frontend, and ultimately represents programs as
+          a decoupled dataflow graph + memory streams. A low-level
+          assembly-level interface is provided for ninja programmers.
+          We include a custom spatial-architecture compiler and backend.
+          The hardware design space includes many spatial architecture
+          optimizations from prior works [1]–[4]. The compiler
+          backend generates programs embedded in a RISCV ISA for
+          control. DSAGEN supports multicore simulationi in gem5, and
+          it uses Chisel for hardware generation.
+        </div>
+      </div>
+      <hr>
+      <div class="col-md-12">
+        <h3>Syllabus and Schedule</h3>
+        <div align="center"><img height="500px" src="figure.svg"></div>
+        <div class="col-xs-12" align="center"> <p style="font-size:20px">Fig. 2: The stack of DSAGEN </p> </div>
+        <div style="font-size: 18px;">
+          <h5>Introduction (20min): <a href="./tutorial-intro.pptx">[slides]</a></h5>
+          <ul>
+            <li>The Decoupled-Spatial Programming Paradigm</li>
+            <li>The Principle of Composing Hardware Primitives</li>
+            <li>DSAGEN: A Framework for Decoupled-Spatial Research</li>
+          </ul>
+        </div>
+        <div style="font-size: 18px;">
+          <h5>Basic Programming of DSAGEN (40min): <a href="./jian-manual.pptx">[slides]</a></h5>
+          <ul>
+            <li>Vector Add</li>
+              <ul>
+                <li>Hardware/Software Interface Overview</li>
+                <li>Writing a Dataflow Graph</li>
+                <li>Writing the Control Intrinsics</li>
+              </ul>
+            <li>Vector Normalization</li>
+              <ul>
+                <li>Signaled Accumulation</li>
+                <li>Concurrent DFG's</li>
+                <li>Additional Control Intrinsics</li>
+              </ul>
+          </ul>
+        </div>
+        <h5> 5-Min Break </h5>
+        <div style="font-size: 18px;">
+          <h5>Advanced Programming of DSAGEN (50min): <a href="./dsagen-irregularity-programming.pdf">[slides]</a>
+            <a href="https://ucla.zoom.us/rec/share/RNpCbmIGQmIFTySUBWpggZMpmMgEadi7pzzM8t_Tc8BS2lAXHqYARymNWIV40oh6.30ZR3NFEZqpnSMFB?startTime=1602978409000">[videos]</a> code: #CWsm3wS</h5>
+          <ul>
+            <li>An Introduction to Data-Dependent Specialization</li>
+            <li>Hands on Exercise: Sparse Dot-Product</li>
+            <li>Multicore Implementation for SpMSpV</li>
+          </ul>
+        </div>
+        <div style="font-size: 18px;">
+          <h5>Automated and Modular Compilation (20min): <a href="./jian-automated.pptx">[slides]</a></h5>
+          <ul>
+            <li>Pragma-Hinted Compilation</li>
+            <li>The Compilation Pipeline</li>
+            <li>Modular Compilation</li>
+          </ul>
+        </div>
+        <h5> 5-Min Break </h5>
+        <div style="font-size: 18px;">
+          <h5>Composing your own architecture (40min): <a href="./MICRO-hw.pptx">[slides]</a></h5>
+          <ul>
+            <li>The Scala-embeded DSL for composing your own architecture</li>
+            <li>Integrate the spatial accelerator to Chipyard!</li>
+          </ul>
+        </div>
+        <del>
+        <div style="font-size: 18px;">
+          <h5>Hacking DSAGEN for your own research (60min): <a href="jian-hacking.pptx">[slides]</a></h5>
+          <ul>
+            <li>Adding a New Instruction Capability to the PEs</li>
+            <li>Extending the RISCV ISA</li>
+          </ul>
+          Though I <b>really really</b> like this section, it is deleted for the sake of time.
+          If you are interested, you can find reference in the slides.
+        </div>
+        </del>
+      </div>
+      <hr>
+      <div class="col-md-12">
+        <h3><a name="docker-usage">Docker Usage</a></h3>
+        <ul style="font-size: 18px">
+          <li>Install Docker according to its <a href="https://docs.docker.com/engine/install/ubuntu/">official guide</a>.</li>
+          <li class="text-monospace">$ mkdir docker-build && cd docker-build</li>
+          <li class="text-monospace">$ wget [the link to the Dockerfile]</li>
+          <li class="text-monospace">$ docker build . # You may see successfully built a hashtag</li>
+          <li class="text-monospace">$ docker run -tid --privileged=true --hostname=dsagen --name=dsagen [the hashtag]</li>
+          <li class="text-monospace">$ docker attach dsagen # Now you are at the / directory of this container</li>
+          <li class="text-monospace">$ cd ~</li>
+          <li class="text-monospace">$ &lt;ctrl-p&gt;&lt;ctrl-q&gt; # Temporarily leave the container </li>
+          <li class="text-monospace">$ exit # Terminate the container </li>
+        </ul>
+        <h3>Related Papers</h3>
+        <ol type="1">
+          <li>V. Dadu and T. Nowatzki, “Towards general purpose acceleration by
+exploiting common data-dependence forms,” in 52nd MICRO, 2019.</li>
+          <li>T. Nowatzki, V. Gangadhar, N. Ardalani, and K. Sankaralingam, “Streamdataflow
+acceleration,” in 44th ISCA, 2017</li>
+          <li>J. Weng, S. Liu, V. Dadu, Z. Wang, and T. Nowatzki, “Dsagen: Synthesizing
+programmable spatial accelerators,” in ISCA, 2020.</li>
+          <li>J. Weng, S. Liu, Z. Wang, V. Dadu, and T. Nowatzki, “A hybrid systolicdataflow
+architecture for inductive matrix algorithms,” in HPCA, 2020.</li>
+        </ol>
+      </div>
+      <hr>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
