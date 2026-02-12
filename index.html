@@ -4,203 +4,236 @@
     <title id="my-name">Hao Liu</title>
     <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/site.css"> 
+    <link rel="stylesheet" type="text/css" media="screen" href="css/site.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body>
+    <!-- ===== Section Nav ===== -->
+    <nav class="section-nav">
+      <a href="#bio">Bio</a>
+      <a href="#research">Research Interests</a>
+      <a href="#publications">Publications</a>
+      <a href="#education">Education</a>
+      <a href="#internship">Internship</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#projects">Projects</a>
+    </nav>
+
+    <!-- ===== Profile Header ===== -->
     <div id="self">
-    <h1>Hao Liu (刘昊)</h1>
-    <a href="imag/haoliu.png"> <img style="width: 180px;" src="imag/haoliu.png" title=""/> </a>
+      <h1>Hao Liu (刘昊)</h1>
+      <a href="imag/haoliu.png"> <img src="imag/haoliu.png" title=""/> </a>
       <div id="info">
-        <div> Ph.D student</div>
-        <div> <a href="https://cemse.kaust.edu.sa/cs">Computer Science</a></div>
-        <div> <a href="https://cemse.kaust.edu.sa/" title="Computer, Electrical, and Mathematical Sciences and Engineering">CEMSE Division</a></div>
-        <div title="Click to get my KAUST email address." id="email"> <a href="#"> [first name].[last name] -at- kaust.edu.sa </a></div>
-        <div> Building 1 <br> KAUST, Thuwal, 23955-6900 </div>
-        <div style="margin-top: 5px;">
-          <a href="./pdfs/HaoLiu_CV.pdf" target="_blank"><b>CV (English)</b></a> /
-          <a href="./pdfs/HaoLiu_CV_Chinese.pdf" target="_blank"><b>中文简历</b></a>
+        <div>Ph.D student</div>
+        <div><a href="https://cemse.kaust.edu.sa/cs">Computer Science</a></div>
+        <div><a href="https://cemse.kaust.edu.sa/" title="Computer, Electrical, and Mathematical Sciences and Engineering">CEMSE Division</a></div>
+        <div title="Click to get my KAUST email address." id="email"><a href="#"> [first name].[last name] -at- kaust.edu.sa </a></div>
+        <div>Building 1 <br> KAUST, Thuwal, 23955-6900</div>
+        <div class="cv-links">
+          <a href="./pdfs/HaoLiu_CV.pdf" target="_blank">CV (English)</a>
+          <a href="./pdfs/HaoLiu_CV_Chinese.pdf" target="_blank">中文简历</a>
         </div>
-        <div style="color: red; font-weight: bold; margin-top: 8px; font-size: 1.1em;">
+        <div class="job-seeking">
           🔥 I am now seeking Job Opportunities
         </div>
       </div>
     </div>
-    <h2>Bio </h2>
-    <p>
-      Hao Liu <a href="https://scholar.google.com/citations?user=zgohKKQAAAAJ&hl=zh-CN&oi=sra">[Google Scholar]</a> <a href="https://github.com/liuhao-97">[github]</a><a href="https://dblp.org/pid/09/3214-86.html">[dblp]</a> is a fourth year Ph.D student advised by Prof. <a href="https://scholar.google.com/citations?user=88wtbPwAAAAJ&hl=zh-CN&oi=ao">Suhaib A.
-      Fahmy</a> in the Accelerated Connected Computing Lab (<a href="https://accl.kaust.edu.sa/">ACCL</a>) at King Abdullah University of Science and Technology (<a href="https://www.kaust.edu.sa/en/">KAUST</a>). He mainly works on optimizing DNN inference in the edge and near-edge scenarios. He also works on split computing, reconfigurable computing systems, and has explored machine learning model compression and physically unclonable functions. He received his Bachelor's degree in Electronic and Information Engineering and Master's degree in Cyber Science and Technology from Beihang University (<a href="https://ev.buaa.edu.cn/">BUAA</a>), Beijing, China in 2019 and 2021, respectively. 
-    </p>
 
-    <h2>Research Interests</h2>
-    <p>
-      My research interests include but not limited to:
-      <ul>
-        <li> DNN Collaborative Inference (CNN, Vision Transformers, etc.) </li>
-        <li> Edge and Near-Edge Inference </li>
-        <li> Reconfigurable Computing Systems </li>
+    <!-- ===== Bio ===== -->
+    <h2 id="bio">Bio</h2>
+    <div class="section-card">
+      <p class="bio-text">
+        <span class="profile-links">
+          Hao Liu
+          <a href="https://scholar.google.com/citations?user=zgohKKQAAAAJ&hl=zh-CN&oi=sra">Google Scholar</a>
+          <a href="https://github.com/liuhao-97">GitHub</a>
+          <a href="https://dblp.org/pid/09/3214-86.html">DBLP</a>
+        </span>
+        is a fourth year Ph.D student advised by Prof. <a href="https://scholar.google.com/citations?user=88wtbPwAAAAJ&hl=zh-CN&oi=ao">Suhaib A.
+        Fahmy</a> in the Accelerated Connected Computing Lab (<a href="https://accl.kaust.edu.sa/">ACCL</a>) at King Abdullah University of Science and Technology (<a href="https://www.kaust.edu.sa/en/">KAUST</a>). He mainly works on optimizing DNN inference in the edge and near-edge scenarios. He also works on split computing, reconfigurable computing systems, and has explored machine learning model compression and physically unclonable functions. He received his Bachelor's degree in Electronic and Information Engineering and Master's degree in Cyber Science and Technology from Beihang University (<a href="https://ev.buaa.edu.cn/">BUAA</a>), Beijing, China in 2019 and 2021, respectively.
+      </p>
+    </div>
+
+    <!-- ===== Research Interests ===== -->
+    <h2 id="research">Research Interests</h2>
+    <div class="section-card">
+      <ul class="interest-list">
+        <li>DNN Collaborative Inference (CNN, Vision Transformers, etc.)</li>
+        <li>Edge and Near-Edge Inference</li>
+        <li>Reconfigurable Computing Systems</li>
       </ul>
-    </p>
-
-    <h2>Publications</h2>
-
-    <div class="title">
-      <a href="#">Collaborative Inference for Vision Transformers with Near-Edge Accelerators</a>
-    </div>
-    <div class="authors">
-      <b> Hao Liu </b>,
-      <a href="https://scholar.google.com/citations?user=88wtbPwAAAAJ&hl=en&oi=ao"> Suhaib A. Fahmy </a>,
-    </div>
-    <div class="venue">
-      <em><a href="#">Under Review</a> </em>
-    </div>
-    </div>
-    <div class="thumb"> &nbsp; </div>
     </div>
 
+    <!-- ===== Publications ===== -->
+    <h2 id="publications">Publications</h2>
 
-
-    <div class="title">
-	<a href="#">Practical Modeling for Split DNN Inference on Near-Edge Accelerators</a>
-    </div>
-    <div class="authors">
-      <b> Hao Liu </b>,
-      <a href="https://scholar.google.com/citations?user=1mr8HxoAAAAJ&hl=en&oi=ao"> Mohammed E. Fouda </a>,
-      <a href="https://scholar.google.com/citations?user=XzW-KWoAAAAJ&hl=en&oi=ao"> Ahmed M. Eltawil </a>,
-      <a href="https://scholar.google.com/citations?user=88wtbPwAAAAJ&hl=en&oi=ao"> Suhaib A. Fahmy </a>,
-    </div>
-    <div class="venue">
-      <em><a href="#">Under Review</a> </em>
-    </div>
-    </div>
-    <div class="thumb"> &nbsp; </div>
+    <div class="pub-item">
+      <div class="title">
+        <a href="#">Collaborative Inference for Vision Transformers with Near-Edge Accelerators</a>
+      </div>
+      <div class="authors">
+        <b>Hao Liu</b>,
+        <a href="https://scholar.google.com/citations?user=88wtbPwAAAAJ&hl=en&oi=ao">Suhaib A. Fahmy</a>
+      </div>
+      <div class="venue">
+        <em><a href="#">Under Review</a></em>
+      </div>
     </div>
 
-    <div class="title">
-      <a href="./pdfs/EDGE_split.pdf">Split DNN Inference for Exploiting Near-Edge Accelerators
-</a>
-    </div>
-    <div class="authors">
-      <b> Hao Liu </b>,
-      <a href="https://scholar.google.com/citations?user=1mr8HxoAAAAJ&hl=en&oi=ao"> Mohammed E. Fouda </a>,
-      <a href="https://scholar.google.com/citations?user=XzW-KWoAAAAJ&hl=en&oi=ao"> Ahmed M. Eltawil </a>,
-      <a href="https://scholar.google.com/citations?user=88wtbPwAAAAJ&hl=en&oi=ao"> Suhaib A. Fahmy </a>,
-    </div>
-    <div class="venue">
-    <em><a href="https://services.conferences.computer.org/2024/">IEEE International Conference on Edge Computing and Communications (IEEE EDGE'24)</a> </em>
-    </div>
-    <div class="thumb"> &nbsp; </div>
-    </div>
-
-    <div class="title">
-      <a href="#">A Filter Rank Based Pruning Method for Convolutional Neural Networks</a>
-    </div>
-    <div class="authors">
-      <b> Hao Liu </b>,
-      <a href="https://scholar.google.com/citations?user=T-P6M5kAAAAJ&hl=en&oi=ao"> Zhenyu Guan</a>,
-      <a href="#"> Peng Lei </a>,
-    </div>
-    <div class="venue">
-      <em>IEEE International Conference on Trust, Security and Privacy in Computing and Communications (IEEE TrustCom'21)</em> 
-    </div>
-    <div class="thumb"> &nbsp; </div>
+    <div class="pub-item">
+      <div class="title">
+        <a href="#">Practical Modeling for Split DNN Inference on Near-Edge Accelerators</a>
+      </div>
+      <div class="authors">
+        <b>Hao Liu</b>,
+        <a href="https://scholar.google.com/citations?user=1mr8HxoAAAAJ&hl=en&oi=ao">Mohammed E. Fouda</a>,
+        <a href="https://scholar.google.com/citations?user=XzW-KWoAAAAJ&hl=en&oi=ao">Ahmed M. Eltawil</a>,
+        <a href="https://scholar.google.com/citations?user=88wtbPwAAAAJ&hl=en&oi=ao">Suhaib A. Fahmy</a>
+      </div>
+      <div class="venue">
+        <em><a href="#">Under Review</a></em>
+      </div>
     </div>
 
-    <div id="publication">
-    <div class="title">
-      <a href="#">Physical unclonable functions for IoT device authentication</a>
+    <div class="pub-item">
+      <div class="title">
+        <a href="./pdfs/EDGE_split.pdf">Split DNN Inference for Exploiting Near-Edge Accelerators</a>
+      </div>
+      <div class="authors">
+        <b>Hao Liu</b>,
+        <a href="https://scholar.google.com/citations?user=1mr8HxoAAAAJ&hl=en&oi=ao">Mohammed E. Fouda</a>,
+        <a href="https://scholar.google.com/citations?user=XzW-KWoAAAAJ&hl=en&oi=ao">Ahmed M. Eltawil</a>,
+        <a href="https://scholar.google.com/citations?user=88wtbPwAAAAJ&hl=en&oi=ao">Suhaib A. Fahmy</a>
+      </div>
+      <div class="venue">
+        <em><a href="https://services.conferences.computer.org/2024/">IEEE International Conference on Edge Computing and Communications (IEEE EDGE'24)</a></em>
+      </div>
     </div>
-    <div class="authors">
-      <a href="https://scholar.google.com/citations?user=T-P6M5kAAAAJ&hl=en&oi=ao"> Zhenyu Guan</a>,
-      <b> Hao Liu </b>,
-      <a href="#"> Yuyao Qin</a>,
+
+    <div class="pub-item">
+      <div class="title">
+        <a href="#">A Filter Rank Based Pruning Method for Convolutional Neural Networks</a>
+      </div>
+      <div class="authors">
+        <b>Hao Liu</b>,
+        <a href="https://scholar.google.com/citations?user=T-P6M5kAAAAJ&hl=en&oi=ao">Zhenyu Guan</a>,
+        <a href="#">Peng Lei</a>
+      </div>
+      <div class="venue">
+        <em>IEEE International Conference on Trust, Security and Privacy in Computing and Communications (IEEE TrustCom'21)</em>
+      </div>
     </div>
-    <div class="venue">
-      <em>Journal of Communications and Information Networks, 2019</em>
+
+    <div class="pub-item">
+      <div class="title">
+        <a href="#">Physical unclonable functions for IoT device authentication</a>
+      </div>
+      <div class="authors">
+        <a href="https://scholar.google.com/citations?user=T-P6M5kAAAAJ&hl=en&oi=ao">Zhenyu Guan</a>,
+        <b>Hao Liu</b>,
+        <a href="#">Yuyao Qin</a>
+      </div>
+      <div class="venue">
+        <em>Journal of Communications and Information Networks, 2019</em>
+      </div>
     </div>
-    <div class="thumb"> &nbsp; </div>
+
+    <!-- ===== Education ===== -->
+    <h2 id="education">Education</h2>
+
+    <div class="timeline-item">
+      <div class="item-title">Ph.D. Student in Computer Science</div>
+      <div class="item-org">KAUST (Advisor: Prof. <a href="https://scholar.google.com/citations?user=88wtbPwAAAAJ&hl=en">Suhaib A. Fahmy</a>)</div>
+      <div class="item-meta">January 2022 - Present &nbsp;|&nbsp; Thuwal, Saudi Arabia</div>
     </div>
 
-  <h2>Education</h2>
-
-  <div style="margin-bottom: 1.5em;">
-    <div style="font-weight: bold;">Ph.D. Student in Computer Science</div>
-    <div>KAUST (Advisor: Prof. <a href="https://scholar.google.com/citations?user=88wtbPwAAAAJ&hl=en">Suhaib A. Fahmy</a>)</div>
-    <div style="color: #666; font-size: 0.95em;">January 2022 - Present &nbsp;|&nbsp; Thuwal, Saudi Arabia</div>
-  </div>
-
-  <div style="margin-bottom: 1.5em;">
-    <div style="font-weight: bold;">M.S. in Cyber Science and Technology</div>
-    <div>Beihang University (Advisor: Prof. <a href="https://scholar.google.com/citations?user=T-P6M5kAAAAJ&hl=en">Zhenyu Guan</a>)</div>
-    <div style="color: #666; font-size: 0.95em;">September 2019 - January 2021 &nbsp;|&nbsp; Beijing, China</div>
-  </div>
-
-  <div style="margin-bottom: 1.5em;">
-    <div style="font-weight: bold;">B.E. in Electronic and Information Engineering</div>
-    <div>Beihang University</div>
-    <div style="color: #666; font-size: 0.95em;">July 2015 - September 2019 &nbsp;|&nbsp; Beijing, China</div>
-  </div>
-
-  <h2>Internship</h2>
-  
-  <div style="margin-bottom: 1.5em;">
-    <div style="font-weight: bold;">Research Intern</div>
-    <div>Tsinghua University</div>
-    <div style="color: #666; font-size: 0.95em;">June 2023 - September 2023 &nbsp;|&nbsp; Beijing, China</div>
-    <div style="margin-top: 0.3em;">
-      Topic: Work on Network Architecture Search (NAS).
-      <br>
-      Supervised by Prof. <a href="https://scholar.google.com/citations?user=j8JGVvoAAAAJ&hl=zh-CN&oi=ao">Yu Wang</a>
+    <div class="timeline-item">
+      <div class="item-title">M.S. in Cyber Science and Technology</div>
+      <div class="item-org">Beihang University (Advisor: Prof. <a href="https://scholar.google.com/citations?user=T-P6M5kAAAAJ&hl=en">Zhenyu Guan</a>)</div>
+      <div class="item-meta">September 2019 - January 2021 &nbsp;|&nbsp; Beijing, China</div>
     </div>
-  </div>
 
-<h2>Teaching Experience</h2>
+    <div class="timeline-item">
+      <div class="item-title">B.E. in Electronic and Information Engineering</div>
+      <div class="item-org">Beihang University</div>
+      <div class="item-meta">July 2015 - September 2019 &nbsp;|&nbsp; Beijing, China</div>
+    </div>
 
-<div style="margin-bottom: 1.5em;">
-  <div style="font-weight: bold;">Teaching Assistant for ECE 265P: AI Training</div>
-  <div>Saudi Ministry of Interior Program</div>
-  <div style="color: #666; font-size: 0.95em;">April 2025 &nbsp;|&nbsp; Riyadh, Saudi Arabia</div>
-</div>
+    <!-- ===== Internship ===== -->
+    <h2 id="internship">Internship</h2>
 
-<div style="margin-bottom: 1.5em;">
-  <div style="font-weight: bold;">Teaching Assistant for KAUST CS256: Digital Design and Computer Architecture</div>
-  <div>KAUST</div>
-  <div style="color: #666; font-size: 0.95em;">September 2022 &nbsp;|&nbsp; Jeddah, Saudi Arabia</div>
-</div>
+    <div class="timeline-item">
+      <div class="item-title">Research Intern</div>
+      <div class="item-org">Tsinghua University</div>
+      <div class="item-meta">June 2023 - September 2023 &nbsp;|&nbsp; Beijing, China</div>
+      <div class="item-desc">
+        Topic: Work on Network Architecture Search (NAS).<br>
+        Supervised by Prof. <a href="https://scholar.google.com/citations?user=j8JGVvoAAAAJ&hl=zh-CN&oi=ao">Yu Wang</a>
+      </div>
+    </div>
 
-<div style="margin-bottom: 1.5em;">
-  <div style="font-weight: bold;">Teaching Assistant for Digital Circuits and Systems Course</div>
-  <div>Beihang University</div>
-  <div style="color: #666; font-size: 0.95em;">September 2020 &nbsp;|&nbsp; Beijing, China</div>
-</div>
+    <!-- ===== Teaching Experience ===== -->
+    <h2 id="teaching">Teaching Experience</h2>
 
+    <div class="timeline-item">
+      <div class="item-title">Teaching Assistant for ECE 265P: AI Training</div>
+      <div class="item-org">Saudi Ministry of Interior Program</div>
+      <div class="item-meta">April 2025 &nbsp;|&nbsp; Riyadh, Saudi Arabia</div>
+    </div>
 
-<h2>Technical Projects</h2>
+    <div class="timeline-item">
+      <div class="item-title">Teaching Assistant for KAUST CS256: Digital Design and Computer Architecture</div>
+      <div class="item-org">KAUST</div>
+      <div class="item-meta">September 2022 &nbsp;|&nbsp; Jeddah, Saudi Arabia</div>
+    </div>
 
-<div style="margin-bottom: 1.5em;">
-  <div style="font-weight: bold;">NNStreamer Deployment & Custom Plugin Development [<a href="https://github.com/liuhao-97/nnstreamer_dockerfile">Docker</a>] [<a href="https://github.com/liuhao-97/nnstreamer-custom-plugin">Code</a>]</div>
-  <div style="margin-top: 0.3em;">
-    Deployed the <a href="https://github.com/nnstreamer/nnstreamer">NNStreamer</a> framework on NVIDIA Jetson edge platforms. Developed custom GStreamer plugins using C/C++ to
-    optimize DNN collaborative inference across multiple devices.
-  </div>
-</div>
+    <div class="timeline-item">
+      <div class="item-title">Teaching Assistant for Digital Circuits and Systems Course</div>
+      <div class="item-org">Beihang University</div>
+      <div class="item-meta">September 2020 &nbsp;|&nbsp; Beijing, China</div>
+    </div>
 
-<div style="margin-bottom: 1.5em;">
-  <div style="font-weight: bold;">ResNet Acceleration: Vitis-AI vs. hls4ml [<a href="https://github.com/liuhao-97/CS356-Vitis-AI-Project">Code</a>]</div>
-  <div style="margin-top: 0.3em;">
-    Implemented ResNet inference using the Xilinx Vitis-AI flow on Xilinx Alveo U55C. Conducted a comparative analysis against <a href="https://github.com/fastmachinelearning/hls4ml">hls4ml</a>
-    implementations, evaluating performance metrics and resource utilization.
-  </div>
-</div>
+    <!-- ===== Technical Projects ===== -->
+    <h2 id="projects">Technical Projects</h2>
 
-<div style="margin-bottom: 1.5em;">
-  <div style="font-weight: bold;">FPGA Game Design: Block the Brick [<a href="https://github.com/liuhao-97/FPGA_block_the_brick/tree/master">Code</a>]</div>
-  <div style="margin-top: 0.3em;">
-    Designed and implemented a "Block the Brick" game using Verilog HDL.
-  </div>
-</div>
+    <div class="project-item">
+      <div class="proj-title">
+        NNStreamer Deployment & Custom Plugin Development
+        <span class="proj-links">
+          <a href="https://github.com/liuhao-97/nnstreamer_dockerfile">Docker</a>
+          <a href="https://github.com/liuhao-97/nnstreamer-custom-plugin">Code</a>
+        </span>
+      </div>
+      <div class="proj-desc">
+        Deployed the <a href="https://github.com/nnstreamer/nnstreamer">NNStreamer</a> framework on NVIDIA Jetson edge platforms. Developed custom GStreamer plugins using C/C++ to
+        optimize DNN collaborative inference across multiple devices.
+      </div>
+    </div>
 
+    <div class="project-item">
+      <div class="proj-title">
+        ResNet Acceleration: Vitis-AI vs. hls4ml
+        <span class="proj-links">
+          <a href="https://github.com/liuhao-97/CS356-Vitis-AI-Project">Code</a>
+        </span>
+      </div>
+      <div class="proj-desc">
+        Implemented ResNet inference using the Xilinx Vitis-AI flow on Xilinx Alveo U55C. Conducted a comparative analysis against <a href="https://github.com/fastmachinelearning/hls4ml">hls4ml</a>
+        implementations, evaluating performance metrics and resource utilization.
+      </div>
+    </div>
 
+    <div class="project-item">
+      <div class="proj-title">
+        FPGA Game Design: Block the Brick
+        <span class="proj-links">
+          <a href="https://github.com/liuhao-97/FPGA_block_the_brick/tree/master">Code</a>
+        </span>
+      </div>
+      <div class="proj-desc">
+        Designed and implemented a "Block the Brick" game using Verilog HDL.
+      </div>
+    </div>
 
     <script>
       function render_email_addr(id, midfix) {
@@ -225,4 +258,4 @@
       });
     </script>
   </body>
-<html>
+</html>
