@@ -265,6 +265,25 @@ p, dl, ol, ul {
   color: #1a1a2e;
 }
 
+.pub-item .pub-links a {
+  display: inline-block;
+  font-size: 0.78em;
+  padding: 0.2em 0.65em;
+  background: #fff;
+  color: #1a6fb5;
+  border: 1.5px solid #1a6fb5;
+  border-radius: 4px;
+  margin-left: 0.4em;
+  font-weight: 600;
+  transition: background 0.2s, color 0.2s;
+}
+
+.pub-item .pub-links a:hover {
+  background: #1a6fb5;
+  color: #fff;
+  text-decoration: none;
+}
+
 .project-item .proj-links a {
   display: inline-block;
   font-size: 0.8em;
